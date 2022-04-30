@@ -8,7 +8,7 @@ import torch
 
 # setup the webserver
 # port may need to be changed if there are multiple flask servers running on same server
-port = 12345
+port = 5000
 base_url = get_base_url(port)
 
 # if the base url is not empty, then the server is running in development, and we need to specify the static folder so that the static files are served
@@ -24,6 +24,8 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 32 * 1024 * 1024
 
 model = torch.hub.load("ultralytics/yolov5", "custom", path = 'best.pt', force_reload=True)
+model.conf = 0.35
+
 
 def allowed_file(filename):
     return '.' in filename and \
@@ -59,7 +61,7 @@ def uploaded_file(filename):
     image_path = os.path.join(here, app.config['UPLOAD_FOLDER'], filename)
     results = model(image_path, size=416)
     if len(results.pandas().xyxy) > 0:
-        results.print()
+        results.print
         save_dir = os.path.join(here, app.config['UPLOAD_FOLDER'])
         results.save(save_dir=save_dir)
         def and_syntax(alist):
@@ -75,24 +77,25 @@ def uploaded_file(filename):
                 return alist
             else:
                 return
-        confidences = list(results.pandas().xyxy[0]['confidence'])
+        confidences = len(list(results.pandas().xyxy[0]['confidence']))
         # confidences: rounding and changing to percent, putting in function
         format_confidences = []
-        for percent in confidences:
-            format_confidences.append(str(round(percent*100)) + '%')
-        format_confidences = and_syntax(format_confidences)
+        #for percent in confidences:
+        #    format_confidences.append(str(round(percent*100)) + '%')
+        format_confidences = and_syntax([str(confidences)])
 
         labels = list(results.pandas().xyxy[0]['name'])
+        r,w,p=str(labels.count('RBC')),str(labels.count('WBC')),str(labels.count('Platelets'))
         # labels: sorting and capitalizing, putting into function
-        labels = set(labels)
-        labels = [emotion.capitalize() for emotion in labels]
-        labels = and_syntax(labels)
-        return render_template('results.html', confidences=format_confidences, labels=labels,
+        labels = list(set(labels))
+        #labels = [x.capitalize() for x in labels]
+        #labels = and_syntax(labels)
+        return render_template('results.html', confidences=[r,w,p], labels=labels,
                                old_filename=filename,
                                filename=filename)
     else:
         found = False
-        return render_template('results.html', labels='No Emotion', old_filename=filename, filename=filename)
+        return render_template('results.html', labels='No Detections', old_filename=filename, filename=filename)
 
 
 @app.route(f'{base_url}/uploads/<path:filename>')
@@ -107,7 +110,7 @@ def files(filename):
 
 if __name__ == '__main__':
     # IMPORTANT: change url to the site where you are editing this file.
-    website_url = 'url'
+    website_url = 'https://cocalcg1.ai-camp.dev'
     
-    print(f'Try to open\n\n    https://{website_url}' + base_url + '\n\n')
+    print(f'Try to open\n\n    https://cocalcg1.ai-camp.dev' + base_url + '\n\n')
     app.run(host = '0.0.0.0', port=port, debug=True)
