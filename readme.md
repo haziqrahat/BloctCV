@@ -144,7 +144,6 @@ Contains the HTML pages used for the webpage, index.html is the demo page.
 
 ### Team
 
-- Haziq Rahat
 - Chris Dugan
 - Adrian Escobar
 - Samantha Manuel
