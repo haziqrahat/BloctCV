@@ -35,9 +35,6 @@
             <ul class="ml-lg-auto list-unstyled m-0 nav-btn">
               <ul class="navbar-nav row">
                 <li class="nav-item">
-                  <a class="nav-link" href={{url_for('data')}}>Data</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="{{url_for('journey')}}">Our Journey</a>
                 </li>
               </ul>
@@ -68,11 +65,24 @@
                     </a>
                 </div>
                 <div class="col">
-                    <img class="mbr-figure" src="{{ url_for('static', filename='uploads/' + filename)}}">
+                    <img class="mbr-figure" width=100 height=400   src="{{ url_for('static', filename='uploads/' + filename)}}">
                 </div>
                 </div>
             </div>
     </section>
+  
+  <section>
+  <div>
+    <p align="center">
+      <iframe width="700" height="400" src="https://www.youtube.com/embed/8N1vJZc_SkE" title="AWAIKE - Webcam Integration With Flask, HTML, and OpenCV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    
+    
+    
+    </div>
+  
+  
+  
+  </section>
 
     <footer id="footer">
         <div class="overlay footer-overlay"></div>
@@ -118,7 +128,9 @@
 
             });
         });
-                
+
+  </script>
+
 
 </body>
 

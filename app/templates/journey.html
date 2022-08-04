@@ -20,8 +20,10 @@
     rel="stylesheet">
     <link href="/static/plugins/fontawesome/css/all.css" rel="stylesheet">
     <!-- Main Stylesheet -->
-    <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="{{url_for('static', filename = 'images/awaike.ico')}}">
+    <link href="{{ url_for('static', filename='css/style.css')}}" rel=
+    "stylesheet">
+    <link href="{{url_for('static', filename = 'images/awaike.ico')}}" rel=
+    "icon" type="image/x-icon">
   </head>
   <body id="top-header">
     <!-- LOADER TEMPLATE -->
@@ -33,71 +35,148 @@
     <!-- /LOADER TEMPLATE -->
     <!-- NAVBAR
     ================================================= -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top header-white main-nav navbar-togglable">
-        <div class="container">
-          <a class="navbar-brand">
-            <img class="navbar-icon hide-on-small-only" alt= "no image" src="{{url_for('static',filename = 'images/Logo.png')}}" width=60 height=60>
-          </a> 
-          <a class="" href={{url_for('home')}}>
-            <h3 style="color: white">
-              AWAIKE
-            </h3>
-          </a> <!-- Toggler -->
-           <button aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation" class="navbar-toggler" data-target=
-          "#navbarCollapse" data-toggle="collapse" type="button"><span class=
-          "fa fa-bars"></span></button> <!-- Collapse -->
 
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="ml-lg-auto list-unstyled m-0 nav-btn">
-              <ul class="navbar-nav row">
-                <li class="nav-item">
-                  <a class="nav-link" href={{url_for('data')}}>Data</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="{{url_for('journey')}}">Our Journey</a>
-                </li>
-              </ul>
+    <nav class=
+    "navbar navbar-expand-lg navbar-dark fixed-top header-white main-nav navbar-togglable">
+      <div class="container">
+        <a class="navbar-brand"><img alt="no image" class=
+        "navbar-icon hide-on-small-only" height="60" src="{{url_for('static',filename='images/Logo.png')}}" width= "60"></a> <a class="" href="{{url_for('home')}}">
+        <h3 style="color: white">
+          AWAIKE
+        </h3></a> <!-- Toggler -->
+         <button aria-controls="navbarCollapse" aria-expanded="false"
+        aria-label="Toggle navigation" class="navbar-toggler" data-target=
+        "#navbarCollapse" data-toggle="collapse" type="button"><span class=
+        "fa fa-bars"></span></button> <!-- Collapse -->
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="ml-lg-auto list-unstyled m-0 nav-btn">
+            <ul class="navbar-nav row">
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('journey')}}">Our
+                Journey</a>
+              </li>
             </ul>
-          </div>
-          <!-- / .navbar-collapse -->
+          </ul>
         </div>
-        <!-- / .Container -->
-      </nav>
+        <!-- / .navbar-collapse -->
+      </div>
+      <!-- / .Container -->
+    </nav>
     <a id="home"></a> <!-- HERO
     ================================================== -->
+     <!-- Content -->
 
-      <!-- Content -->
+              <!-- Heading -->
 
-      <!-- / .row -->
-      <a id="meet_the_team"></a>
-      <section class="section section-padding" id="services-2">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-6 text-center">
-              <div class="section-heading">
-                <!-- Heading -->
-                <h2 class=
-                "section-title section-title-padding mb-2 text-white">
-                  Our Data
-                </h2>
-                
+              <h2 class="section-title section-title-padding mb-2 text-white">
+                Our Journey
+              </h2>
+              <br>
+              <p style="text-align: left">
+                We came a long from not knowing anything about AI to training 
+                an object detection neural network. We've learnt how to use python,
+                Roboflow and YOLOv5 to train a custom computer vision model.
+                We also learnt about HTML, CSS, Bootstrap to create a frontend for 
+                the model(this website), and Flask to integrate the frontend with our 
+                backend.
+                <br>
+                <br>
+                Our model went through multiple versions to create the most accurate and robust model. 
+                In order to improve the efficiency of the model we had to 
+                continually adjust various factors pertaining to the data set. 
+                Below are the different confusion matrices for each of the six 
+                different significant versions trained.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
 
-<!--         Essential Scripts
-    =====================================--> 
-    <!-- Main jQuery -->
-    <script src="{{ url_for('static', filename='plugins/jquery/jquery.min.js')}}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="{{ url_for('static', filename='js/theme.js')}}"></script>
-    <script>
+      <div style="content: ""; display: table; clear: both">
+        <div>
+          <p>
+            Version 1:
+          </p>
+          <img alt="matrix v1" class="image-container img-fluid" height="300"
+          src="{{url_for('static', filename='images/Confusion Matrices/Confusion Matrix v1.png')}}"
+          width="300">
+           <pstyle="float: left; width: 50%; padding: 10px">
+          </p>
+
+          <p>
+            Version 2:
+          </p>
+          <img alt="matrix v2" class="image-container img-fluid" height="300"
+          src="{{url_for('static', filename = 'images/Confusion Matrices/Confusion Matrix v2.png')}}"
+          width="300">
+          <p>
+          </p>
+        </div>
+
+        <div style="float: left; width: 50%; padding: 10px">
+          <p>
+            Version 3:
+          </p>
+          <img alt="matrix v3" class="image-container img-fluid" height="300"
+          src="{{url_for('static', filename ='images/Confusion Matrices/Confusion Matrix v3.png')}}"
+          width="300">
+          <p>
+          </p>
+
+          <p>
+            Version 4:
+          </p>
+          <img alt="matrix v4" class="image-container img-fluid" height="300"
+          src="{{url_for('static', filename='images/Confusion Matrices/Confusion Matrix v4.png')}}"
+          width="300">
+          <p>
+          </p>
+        </div>
+
+        <div>
+          <p>
+            version 5:
+          </p>
+          <img alt="matrix v5" class="image-container img-fluid" height="300"
+          src="{{url_for('static', filename = 'images/Confusion Matrices/Confusion Matrix v5.png')}}"
+          width="300">
+          <p></p>
+          <p style="float: left; width: 50%; padding: 10px">
+            version 6:
+          </p>
+          <img alt="matrix v6" class="image-container img-fluid" height="300"
+          src="{{url_for('static', filename = 'images/Confusion Matrices/Confusion Matrix v6.png')}}"
+          width="300">
+        </div>
+      </div>
+    </section>
+      
+        <!-- / .row -->
+         <!--         Essential Scripts
+    =====================================--> <!-- Main jQuery -->
+         
+        <script src=
+        "{{url_for('static',filename='plugins/jquery/jquery.min.js')}}"></script>
+        
+        <script crossorigin="anonymous" integrity=
+        "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src=
+        "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+        
+        <script src=
+        "{{url_for('static',filename='js/theme.js')}}"></script> 
+        <script>
+
         // added to get upload with a button working
         document.getElementById('seefood_button').addEventListener('click', openDialog);
 
         function openDialog() {
             document.getElementById('seefood_input_field').click();
         }
-    </script>
-    <script type="text/javascript">
+        </script> 
+        <script type="text/javascript">
+
         $(document).ready(function() {
             $("#spinner").bind("ajaxSend", function() {
                 $(this).show();
@@ -111,6 +190,6 @@
 
             });
         });
-    </script>
+        </script> 
   </body>
 </html>

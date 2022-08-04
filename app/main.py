@@ -153,11 +153,6 @@ def files(filename):
 # def team_members():
 #     return render_template('team_members.html') # would need to actually make this page
 
-
-@app.route(f'{base_url}/data')
-def data():
-    return render_template('data.html') 
-
 @app.route(f'{base_url}/journey')
 def journey():
     return render_template('journey.html') 
