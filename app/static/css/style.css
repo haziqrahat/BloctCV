@@ -27,6 +27,7 @@ Version      : 1.0
 * 12.FOOTER CSS STYLE
 * ----------------------------------------
 */
+
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900");
 html {
 	font-family: sans-serif;
@@ -190,11 +191,11 @@ img {
 	margin-bottom: 30px;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
 	.section {
 		padding: 7.5rem 0;
 	}
-} */
+}
 
 .section-top {
 	padding-top: 8.125rem;
@@ -586,7 +587,7 @@ PAGE BANNER
 
 .page-contact {
 	position: relative;
-	padding: 180px 0px;
+	padding: 180px 0px ;
 	background: url("../images1/banner/p-6.jpg") fixed 50% 50% no-repeat;
 	background-size: cover;
 }
@@ -1458,10 +1459,6 @@ CONTACT PAGE
 	list-style-type: none;
 }
 
-#footer {
-	background: url("../images1/bg/10.jpg");
-	background-size: cover;
-}
 
 .footer-overlay {
 	background: #111;
@@ -2089,7 +2086,7 @@ CONTACT PAGE
 		padding-bottom: 0px;
 	}
 	.page-banner-area {
-		padding: 160px 0px 110px;
+		padding: 160px 0px 0px;
 	}
 	.display-4 {
 		font-size: 30px;
