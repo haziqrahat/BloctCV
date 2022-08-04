@@ -1925,4 +1925,4 @@ Traceback (most recent call last):
   File "/projects/01daffaa-a27d-48db-9968-b77753dcc306/miniconda3/envs/cv_env/lib/python3.8/site-packages/werkzeug/serving.py", line 991, in run_simple
     s.bind(server_address)
 OSError: [Errno 98] Address already in use
-(cv_env) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ 
+(cv_env) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ (base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ 

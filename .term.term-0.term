@@ -1,1 +1,157 @@
-(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ 
+(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ git add .
+(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ git commit -m 
+error: switch `m' requires a value
+(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ git commit -m 'Added [K[K[K[K[K[KLatest Cjan[K[K[Khanges'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '01daffaaa27d48db9968b77753dcc306@d194d1565f2b.(none)')
+(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ git config --global user.email "you@example.com"[1P@example.com"[1P@example.com"[1P@example.com"h@example.com"a@example.com"z@example.com"q@example.com"i@example.com"[1P@example.com"[1P@example.com"i@example.com"q@example.com"b@example.com"u@example.com"l@example.com"l@example.com"a@example.com"h@example.com"[1@][1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"g.com"m.com"a.com"i.com"l.com"
+(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ git config --global user.name "Your Name"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"H"a"z"i"q"[1P"[1P"[1P"[1P"[1P"h"a"z"i"q"r"a"a"[1P"h"a"t"
+(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ git config --global user.name "haziqrahat"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuser.email "haziqbullah@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pmmit -m 'Latest Changes'
+[main d41bd1d] Latest Changes
+ 128 files changed, 7667 insertions(+), 1142 deletions(-)
+ create mode 100644 .term.term-0.term
+ delete mode 100644 README.md
+ create mode 100644 app/.2022-07-28-111955.term-0.term
+ create mode 100644 app/.main.py-0-python3.term
+ create mode 100644 app/.main.py-0.term
+ create mode 100644 app/.main.py.sage-chat
+ create mode 100644 app/.terminal.term-0.term
+ create mode 100644 app/.terminal.term.sage-chat
+ delete mode 100644 app/images/.gitignore
+ create mode 100644 app/static/images/Adrian.jpg
+ create mode 100644 app/static/images/Confusion Matrices/Confusion Matrix v1.png
+ create mode 100644 app/static/images/Confusion Matrices/Confusion Matrix v2.png
+ create mode 100644 app/static/images/Confusion Matrices/Confusion Matrix v3.png
+ create mode 100644 app/static/images/Confusion Matrices/Confusion Matrix v4.png
+ create mode 100644 app/static/images/Confusion Matrices/Confusion Matrix v5.png
+ create mode 100644 app/static/images/Confusion Matrices/Confusion Matrix v6.png
+ create mode 100644 app/static/images/Dylan.jpg
+ create mode 100644 app/static/images/Haziq.jfif
+ create mode 100644 app/static/images/Logo.png
+ create mode 100644 app/static/images/Praneeth.jpg
+ create mode 100644 app/static/images/Santosh.png
+ delete mode 100644 app/static/images/ai-camp-logo-128x128.png
+ delete mode 100644 app/static/images/ari.jpg
+ create mode 100644 app/static/images/awaike.ico
+ delete mode 100644 app/static/images/beatrice-600x600.jpg
+ create mode 100644 app/static/images/chris.jpg
+ delete mode 100644 app/static/images/clem-5-emo-ncm-671x690.jpg
+ delete mode 100644 app/static/images/clem-600x600.jpg
+ delete mode 100644 app/static/images/happy-450x450-450x450.png
+ delete mode 100644 app/static/images/happy-450x450.png
+ delete mode 100644 app/static/images/img-6087-1400x1050.jpg
+ delete mode 100644 app/static/images/michael.jpg
+ delete mode 100644 app/static/images/michael.png
+ delete mode 100644 app/static/images/muti-600x600.jpg
+ delete mode 100644 app/static/images/neutral-450x450-450x450.png
+ delete mode 100644 app/static/images/neutral-450x450.png
+ delete mode 100644 app/static/images/sad-450x450-450x450.png
+ delete mode 100644 app/static/images/sad-450x450.png
+ delete mode 100644 app/static/images/surprised-1-450x450-450x450.png
+ delete mode 100644 app/static/images/surprised-1-450x450.png
+ delete mode 100644 app/static/images/surprised-baby-1984x1116.jpg
+ delete mode 100644 app/static/images/thomas-600x600.jpg
+ delete mode 100644 app/static/images/ying.jpg
+ delete mode 100644 app/static/images/ying.png
+ create mode 100644 app/static/images1/My project.png
+ delete mode 100644 app/static/images1/Screen_Shot_2019-07-31_at_5.35.22_PM.png
+ delete mode 100644 app/static/images1/beatrice.jpeg
+ create mode 100644 app/static/images1/bgImage.jpg
+ delete mode 100644 app/static/images1/clement.jpeg
+ create mode 100644 app/static/images1/download.png
+ delete mode 100644 app/static/images1/muti.jpeg
+ delete mode 100644 app/static/images1/thomas.jpeg
+ delete mode 100644 app/static/images1/ying.jpeg
+ create mode 100644 app/static/uploads/10.jpg
+ create mode 100644 app/static/uploads/11.jpg
+ create mode 100644 app/static/uploads/12.jpg
+ create mode 100644 app/static/uploads/13.jpg
+ create mode 100644 app/static/uploads/16.jpg
+ create mode 100644 app/static/uploads/25.jpg
+ create mode 100644 app/static/uploads/26.jpg
+ create mode 100644 app/static/uploads/27.jpg
+ create mode 100644 app/static/uploads/34.jpg
+ create mode 100644 app/static/uploads/35.jpg
+ create mode 100644 app/static/uploads/36.jpg
+ create mode 100644 app/static/uploads/360_F_158271089_HvXV7S4geQTSaOKcyjlEnT3237vzODQV.jpeg
+ create mode 100644 app/static/uploads/360_F_158271089_HvXV7S4geQTSaOKcyjlEnT3237vzODQV.jpg
+ create mode 100644 app/static/uploads/360_F_176989033_pYuWmWqyfDDt6LxYy2HvogLdSMg0i4IN.jpeg
+ create mode 100644 app/static/uploads/360_F_176989033_pYuWmWqyfDDt6LxYy2HvogLdSMg0i4IN.jpg
+ create mode 100644 app/static/uploads/38.jpg
+ create mode 100644 app/static/uploads/39.jpg
+ create mode 100644 app/static/uploads/42.jpg
+ create mode 100644 app/static/uploads/6.jpg
+ create mode 100644 app/static/uploads/612ee290c1060b4ee686c5a3_man-falling-asleep-while-driving_1.jpg
+ create mode 100644 app/static/uploads/9.jpg
+ create mode 100644 app/static/uploads/Adrian.jpg
+ create mode 100644 app/static/uploads/Beast_Reacts_-_Reacting_To_The_Worlds_Most_Satisfying_Videos_T1QUEKLNPtA_-_860x484_-_0m00s.jpg
+ create mode 100644 app/static/uploads/Beast_Reacts_-_Reacting_To_The_Worlds_Most_Satisfying_Videos_T1QUEKLNPtA_-_860x484_-_0m00s.png
+ create mode 100644 app/static/uploads/DSC_5794.JPG
+ create mode 100644 app/static/uploads/DSC_5794.jpg
+ create mode 100644 app/static/uploads/DSC_5838.JPG
+ create mode 100644 app/static/uploads/DSC_5838.jpg
+ create mode 100644 app/static/uploads/DSC_6024.JPG
+ create mode 100644 app/static/uploads/DSC_6024.jpg
+ create mode 100644 app/static/uploads/DSC_6048.JPG
+ create mode 100644 app/static/uploads/DSC_6048.jpg
+ create mode 100644 app/static/uploads/Darius_Wallpaper.jpg
+ create mode 100644 app/static/uploads/Dylan.jpg
+ create mode 100644 app/static/uploads/Haziq.jfif
+ create mode 100644 app/static/uploads/Haziq.jpg
+ create mode 100644 app/static/uploads/IMG_2314.jpg
+ create mode 100644 app/static/uploads/Logo.jpg
+ create mode 100644 app/static/uploads/Logo.png
+ create mode 100644 app/static/uploads/PFP.jpg
+ create mode 100644 app/static/uploads/PIXECT-20220727123157.jpg
+ create mode 100644 app/static/uploads/PIXECT-20220727123224.jpg
+ create mode 100644 app/static/uploads/PIXECT-20220727123302.jpg
+ create mode 100644 app/static/uploads/PIXECT-20220727123542.jpg
+ create mode 100644 app/static/uploads/PIXECT-20220727123551.jpg
+ create mode 100644 app/static/uploads/PIXECT-20220727124240.jpg
+ create mode 100644 app/static/uploads/Santosh.jpg
+ create mode 100644 app/static/uploads/Santosh.png
+ create mode 100644 app/static/uploads/Screenshot_20220704-005239_Uber.jpg
+ create mode 100644 app/static/uploads/a_photo_of_me.jpeg
+ create mode 100644 app/static/uploads/a_photo_of_me.jpg
+ delete mode 100644 app/static/uploads/cat-180_jpg.rf.2a0c97e4954ce2cbf86a229ca62f692b.jpg
+ delete mode 100644 app/static/uploads/cat-336_jpg.rf.c6f790fd9a919f54ec271aa01a1fd4b4.jpg
+ delete mode 100644 app/static/uploads/cat-717_jpg.rf.ac9c642916d340b5551e9e406837b864.jpg
+ create mode 100644 app/static/uploads/chris.jpg
+ create mode 100644 app/static/uploads/depositphotos_42701227-stock-photo-tired-young-man-asleep-at.jpeg
+ create mode 100644 app/static/uploads/depositphotos_42701227-stock-photo-tired-young-man-asleep-at.jpg
+ create mode 100644 app/static/uploads/dudeguy.jpg
+ create mode 100644 app/static/uploads/flee.jpg
+ create mode 100644 app/static/uploads/gang.jpg
+ create mode 100644 app/static/uploads/hyrum_hansen.jpg
+ create mode 100644 app/static/uploads/img24.jpg
+ create mode 100644 app/static/uploads/img894.jpg
+ create mode 100644 app/static/uploads/sleepyGuy.jpg
+ create mode 100644 app/templates/.home.html-0.term
+ create mode 100644 app/templates/data.html
+ rewrite app/templates/home.html (87%)
+ delete mode 100644 app/templates/home1.html
+ create mode 100644 app/templates/journey.html
+ rewrite app/templates/results.html (69%)
+ create mode 100644 app/terminal.term
+ create mode 100644 term.term
+(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ [K(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ [K(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ [K(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ [K(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ [K(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ [K(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ git push origin main
+Username for 'https://github.com': haiz   z aziqrahat
+Password for 'https://haziqrahat@github.com': 
+remote: Permission to bruvchris/AWAIKE.git denied to haziqrahat.
+fatal: unable to access 'https://github.com/bruvchris/AWAIKE.git/': The requested URL returned error: 403
+(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ git push origin main
+Username for 'https://github.com': haziqrahat
+Password for 'https://haziqrahat@github.com': 
+remote: Permission to bruvchris/AWAIKE.git denied to haziqrahat.
+fatal: unable to access 'https://github.com/bruvchris/AWAIKE.git/': The requested URL returned error: 403
+(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ git push origin main[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ [K(base) ]0;~/AWAIKE[01;34m~/AWAIKE[00m$ git commit -m 'Latest Changes'
