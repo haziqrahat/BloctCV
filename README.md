@@ -1,4 +1,8 @@
-Problem
+<h1>BlodectCV</h1>
+
+<h3>A tool for the detection and classification of blood cells</h3>
+
+##Problem Statement
 A complete blood cell count is an important test in medical diagnosis to evaluate overall health condition. Traditionally blood cells are counted manually using haemocytometer along with other laboratory equipment's and chemical compounds, which is a time-consuming and tedious task. 
 Solution
 A computer aided sytem that detects and classifies the bloods cells from the microscopic images fed into it.
